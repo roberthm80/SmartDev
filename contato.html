@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sobre</title>
+    <link rel="stylesheet" type="text/css" href="style/styles2.css">
+    <link href="style/font.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.js">
+    </script>
+    <script type="text/javascript">
+        $(window).on('scroll', function() {
+            if($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png" height="90">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a class="active" href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <section class="sec1">
+            <p class="mainText"><strong>Olá!<br><br>
+            Contate a S.M.A.R.T Dev:</strong></p>
+            <p class="mainText2"><strong>Telefone: </strong> (51) 97969-5949<br><br><strong>Endereço: </strong> Av. Guaíba das Américas, 1080<br><br><strong>Atendimento: </strong>8:00h às 18:00h - Segunda à Sábado</p>
+            
+        </section>
+        <section class="content">
+            <p>S.M.A.R.T Dev - Smart Modern Art Reinterpreted Through WebDev</p>
+            <p>Guaíba - RS</p>
+            <p>2018</p>
+        </section>
+    </div>
+</body>
+
+</html>

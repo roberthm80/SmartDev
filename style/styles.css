@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+    background-color: antiquewhite;
+}
+
+nav {
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px 70px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+
+nav.black {
+    background: rgba(0,0,0,0.8);
+    height: 110px;
+    padding: 10px 30px;
+}
+
+nav .logo {
+    padding: 0px 0px;
+    height: 100px;
+    float: left;
+    transition: .3s;
+}
+
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 90px;
+    color: #151515;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+nav.black ul li a {
+    color: #fff;
+    background-color: rgba(0,0,0,0.32);
+    border-radius: 6px;
+    text-shadow:
+    -0.5px -0.5px 0 #000701,
+    0.5px -0.5px 0 #000701,
+    -0.5px 0.5px 0 #000701,
+    0.5px 0.5px 0 #000701;
+}
+
+nav ul li a:focus{
+    outline: none;
+}
+
+nav ul li a.active {
+    background: #009933;
+    color: #fff;
+    border-radius: 6px;
+}
+
+section.sec1 {
+    width: 100%;
+    height: 100%;
+    background: url(../img/BG51080p.png);
+    background-size: cover;
+    background-position: center;
+    filter: contrast(150%) opacity(90%);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    
+}
+
+.content {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.mainText {
+    margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: antiquewhite;
+    padding-top: 300px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-size: 450%;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+    text-shadow:
+    -1.2px -1.2px 0 #4a594c,
+    1.2px -1.2px 0 #4a594c,
+    -1.2px 1.2px 0 #4a594c,
+    1.2px 1.2px 0 #4a594c;
+}
+
+
+.content p {
+    width: 900px;
+    margin: 30px auto;
+    text-align: justify;
+    font: 20px;
+    line-height: 30px;
+}
